@@ -2,12 +2,43 @@
 //    недели по заданному номеру.
 
 string s_a = Console.ReadLine()!;
-string s_b = Console.ReadLine()!;
 
-int a = int.Parse(s_a);
-int b = int.Parse(s_b);
+if (s_a == "1")
+{
+    Console.WriteLine("ПН");
+}
 
-if (a == b * b)  Console.WriteLine("Yes");
-else  Console.WriteLine("No");
+else if (s_a == "2")
+{
+    Console.WriteLine("ВТ");
+}
 
- // Console.WriteLine("Hello, World!");
+else if (s_a == "3")
+{
+    Console.WriteLine("СР");
+}
+
+else if (s_a == "4")
+{
+    Console.WriteLine("ЧТ");
+}
+
+else if (s_a == "5")
+{
+    Console.WriteLine("ПТ");
+}
+
+else if (s_a == "6")
+{
+    Console.WriteLine("СБ");
+}
+
+else if (s_a == "7")
+{
+    Console.WriteLine("ВС");
+}
+
+else
+{
+    Console.WriteLine("Ошибка");
+}
