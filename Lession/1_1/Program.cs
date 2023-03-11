@@ -8,6 +8,7 @@ int a = int.Parse(s_a);
 int b = int.Parse(s_b);
 
 if (a == b * b)  Console.WriteLine("Yes");
+
 else  Console.WriteLine("No");
 
  // Console.WriteLine("Hello, World!");
